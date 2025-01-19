@@ -47,7 +47,7 @@ function gerarNumeroAleatorio() {
         return gerarNumeroAleatorio();
     } else {
         listaDeNumerosSorteados.push(numeroEscolhido);
-        console.log(listaDeNumerosSorteados)
+        console.log(listaDeNumerosSorteados);
         return numeroEscolhido;
     }
 }
@@ -62,7 +62,7 @@ function reiniciarJogo() {
     limparCampo();
     tentativas = 1;
     exibirMensagemInicial();
-    document.getElementById('reiniciar').setAttribute('disabled', true)
+    document.getElementById('reiniciar').setAttribute('disabled', true);
 }
 
 
